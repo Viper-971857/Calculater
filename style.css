@@ -1,0 +1,62 @@
+body{
+	background: #bfb5b5;
+}
+.container{
+	width: 250px;
+	height: 400px;
+	margin: 80px auto;
+	border-radius: 10px;
+	background: rgb(214, 214, 214);
+	box-shadow: 5px 5px 10px #b6a9a9,-5px -5px 10px #ffffff;	
+}
+.card{
+	width: 200px;
+	margin: 20px auto;
+}
+#display{
+	border: none;
+	outline: none;
+	color: black;
+	text-align: right;
+	font-weight: 700;
+	padding: 15px;
+	margin: 30px 0 20px 0;
+	background: transparent;
+	box-shadow: inset 2px 2px 5px #babecc,inset -5px -5px 10px #ffffff;
+	position: relative;
+	right: 20px;
+}
+.button{
+	margin: 15px 0 0 5px;
+	width: 50px;
+	height: 50px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 8px;
+	background: rgb(214, 214, 214);
+	box-shadow: 5px 5px 10px#b6acac,-5px -5px 10px #faf4f4;
+	display: inline-block;
+	position: relative;
+	right: 17px;
+}
+.button:active{
+	box-shadow: inset 1px 1px 2px #babeec,inset -1px -1px #ffffff;
+}
+.clearbutton{
+	background: red;
+	color: #ffffff;
+	text-transform: uppercase;
+
+}
+.mathbutton{
+	background: black;
+	color: #ffffff;
+
+}
+form{
+	position: absolute;
+	background: transparent;
+}
