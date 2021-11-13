@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<meta charset="utf-8">
+	<title>calculater</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+
+</head>
+<body>
+
+	<div class="container" style="width: 300px;">
+
+		<div class="card">
+
+			<form name="calculater">
+
+			<input id="display" type="text" name="display" placeholder="0" readonly><br>
+
+			<input class="button" type="button" value="7" onclick="calculater.display.value +='7'">
+			<input class="button" type="button" value="8" onclick="calculater.display.value +='8'">
+			<input class="button" type="button" value="9" onclick="calculater.display.value +='9'">
+			<input class="button mathbutton" type="button" value="+" onclick="calculater.display.value +='+'">
+			<br>
+
+			<input class="button" type="button" value="4" onclick="calculater.display.value +='4'">
+			<input class="button" type="button" value="5" onclick="calculater.display.value +='5'">
+			<input class="button" type="button" value="6" onclick="calculater.display.value +='6'">
+			<input class="button mathbutton" type="button" value="-" onclick="calculater.display.value +='-'">
+			<br>
+
+			<input class="button" type="button" value="1" onclick="calculater.display.value +='1'">
+			<input class="button" type="button" value="2" onclick="calculater.display.value +='2'">
+			<input class="button" type="button" value="3" onclick="calculater.display.value +='3'">
+			<input class="button mathbutton" type="button" value="*" onclick="calculater.display.value +='*'">
+			<br>
+
+			<input class="button clearbutton" type="button" value="ac" onclick="calculater.display.value =''">
+			<input class="button" type="button" value="0" onclick="calculater.display.value +='0'">
+			<input class="button mathbutton" type="button" value="=" onclick="calculater.display.value =  eval(calculater.display.value)">
+			<input class="button mathbutton" type="button" value="/" onclick="calculater.display.value +='/'">
+
+			
+				
+			</form>
+			
+		</div>
+		
+	</div>
+
+</body>
+</html>
